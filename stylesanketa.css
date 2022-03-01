@@ -1,0 +1,126 @@
+.wrapper {
+    margin: 0px auto;
+    background-image: url(Images/anketa.jpg);
+    width: 1000px;
+    margin: 0px auto;
+    padding: 20px 0px;
+    border: 3px dotted #0d1649;
+}
+
+
+h1 {
+    color: #0f62c7;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+fieldset {
+    margin: 0px auto;
+    margin-bottom: 10px;
+    background-color: #FFFAFA;
+    border-radius: 6px;
+    border: 4px solid #2F4F4F;
+    padding: 30px 0px;
+    width: 800px;
+}
+
+label {
+    font-weight: 600;
+    font-family: arial;
+    color: #30588a;
+    margin-left: 70px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+legend {
+    margin-left: 80px;
+    padding: 5px;
+    border: 5px solid #304646;
+    background-color: #2a948f;
+    border-radius: 7px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.fieldset1 label {
+    width: 80px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.fieldset1 input {
+    height: 25px;
+    width: 350px;
+    margin-bottom: 15px;
+    border: 1px solid #1F497D;
+    background-color: #20B2AA;
+}
+
+.fieldset1 .email {
+    background-color: #e94f3e;
+}
+
+.age {
+    background-color: #20B2AA;
+    width: 130px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+fieldset .input {
+    margin-left: 50px;
+}
+
+.rangeW {
+    width: 200px;
+}
+
+.Date {
+    margin-left: 260px;
+}
+
+textarea {
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #325858;
+    box-shadow: 0px 0px 0px 6px #acacac;
+}
+
+.dateandtime {
+    padding: 5px 0px;
+    width: 250px;
+    margin-left: 5px;
+    color: white;
+    border: 2px solid #2F4F4F;
+    box-shadow: 0px 0px 0px 6px #DDDDDD;
+    border-radius: 5px;
+    background-color: #20B1AA;
+
+}
+
+.button {
+    background-color: #46bbb9;
+    border-radius: 15px;
+    border: 5px dashed #417e8f;
+    color: white;
+    width: 150px;
+    padding: 3px 0px;
+    font-weight: 700;
+}
+
+.buttons {
+    margin: 0px auto;
+    width: 320px;
+}

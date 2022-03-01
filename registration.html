@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="stylesregistration.css">
+    </head>
+    <body>
+        <div class="wrapper">
+                <h1>РЕГИСТРАЦИЯ ПОДПИСЧИКА</h1>
+
+                <label>Как вас зовут?</label>
+                <input class="text" type="text">
+
+                <br>
+
+                <label>Страна проживания?</label>
+                <input class="text" type="text">
+
+                <br>
+
+                <label>Ваш адрес электронной почты:</label>
+                <input class="text email" type="email">
+
+                <br>
+
+                <label>Ваш пол:</label> 
+                <input cla type="radio" name="gender">Мужской
+                <input type="radio" name="gender">Женский
+
+                <br><br>
+
+                <label>Укажите возраст</label>
+                <input class="age" type="number" min="16" max="60">
+
+                <br>
+                
+                <label>Ваш уровень владения компьютером:</label><br>
+                <input class="radio" type="radio" name="skill">Начальный<br>
+                <input class="radio" type="radio" name="skill">Средний<br>
+                <input class="radio" type="radio" name="skill">Профессиональнай<br>
+                <input class="radio" type="radio" name="skill">Не владею<br>
+                <br>
+
+                <label>Откуда о нас узнали?</label>
+                <select>
+                    <option>-</option>
+                    <option>Интернет</option>
+                    <option>Печатные издания</option>
+                    <option>Посоветовали знакомые</option>
+                    <option>Телевидение</option>
+                </select>
+
+                <br><br>
+                
+                <label>Дополнительная информация</label><br>
+                <textarea cols="30" rows="10"></textarea>
+                
+                <br>
+
+                <label>Дата подписки</label>
+                <input class="date" type="date">
+                
+                <br>
+
+                <div class="buttons">
+                    <input class="button" type="submit" value="ПОДПИСАТСЯ">
+                    <input class="button" type="reset" value="ОЧИСТИТЬ">
+                </div>
+            <a class="button" href="index.html">Вернутся на главную</a>
+        </div>
+    </body>
+</html>
